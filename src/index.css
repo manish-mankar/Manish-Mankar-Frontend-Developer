@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.back-color {
+  background-color: #00161d;
+}
+
+.card-color {
+  background-color: #0f373c;
+}
+
+.para-text {
+  color: #b0faffb2;
+}
+
+.about-card {
+  background-color: #08252a;
+}
+
+.footer-color {
+  background: #010F14;
+}
+
+.roadmap-img {
+  width: 500px;
+  height: 900px;
+  gap: 0px;
+  opacity: 0px;
+}
